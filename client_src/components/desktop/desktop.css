@@ -1,0 +1,17 @@
+#desktop{
+    background-color: #FFFAFA	;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:200%;
+    width:200%;
+    overflow: auto;
+}
+
+#window-set-container{
+  position: relative;
+  top: 0px;
+  left: 0px;
+  height: calc(100% - 36px);
+  width:100%;
+}

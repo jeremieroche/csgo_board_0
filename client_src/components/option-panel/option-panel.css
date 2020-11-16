@@ -1,0 +1,103 @@
+#wholeOptionPanel{
+  display: inline-block;
+
+}
+
+
+
+.p1-header{
+  font-size: 28px;
+  color:red
+}
+
+.p2-header{
+  font-size: 28px;
+  color:green
+}
+
+.selectedBoxInput{
+  display: table;
+  font-size:24px;
+  width:100px;
+  height:40px;
+}
+
+
+#sliceOptions{
+  display:flex;
+  /* height:calc(100% - 160px); */
+  font-size: 0.1em;
+  position:relative;
+}
+
+#sliceCheckBoxes{
+  height:20%;
+}
+
+
+
+.scb{
+  width:50%;
+  height:100%;
+  display: flex;
+  font-size:0.02em;
+  float:left;
+}
+
+#setSliceButton{
+  position: absolute;
+  top:20px;
+  /* display: inline-block; */
+  font-size: 0.3em;
+}
+
+.disabledbutton {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.side-column{
+  float:left;
+}
+
+#boxBundleOptions{
+  /* width:33%;
+  max-width:100px; */
+  height:100%;
+}
+
+#selectedBoxOptions{
+  height:100%;
+}
+
+.bbOption{
+  float:left;
+}
+
+#selectedBundleOptions{
+  position: relative;
+  height:100%;
+}
+
+.glueLinkButton{
+  /* max-height:inherit; */
+  font-size: 0.03em;
+  position: absolute;
+  top:0px;
+  left: 30px;
+}
+
+#glue-button{
+  /* left: 30px; */
+  top: 160px;
+}
+
+#link-button{
+  top:190px
+}
+
+.bundleInput{
+  display: table;
+  font-size:0.055em;
+  width:100px;
+}

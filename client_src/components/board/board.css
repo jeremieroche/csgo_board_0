@@ -1,0 +1,123 @@
+#board{
+  width:100%;
+}
+
+
+#backdrop-container{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+}
+
+#backdrop{
+  position: relative;
+  top: 0px;
+  left:0px;
+  width:100%;
+  height:100%;
+}
+
+
+#permutation-options {
+  position: sticky;
+  z-index:2;
+  top:0px;
+  left:0px;
+  width: 100%;
+  /* height: 100%; */
+}
+
+
+#splitpane-div{
+  position:absolute;
+  top:36px;
+  width:100%;
+  height: calc(100% - 36px)
+}
+
+
+#main-splitpane{
+  position: relative;
+  height: 100%;
+}
+
+
+#canvas-pane{
+  height:100%;
+}
+
+#canvasBack{
+  height:100%;
+  width:100%;
+  overflow:scroll;
+  top:0px;
+
+
+}
+
+
+
+[id^=canvas] {
+  width:815px;
+  height: 810px;
+}
+
+
+[id^=map] {
+  left:0;
+  margin: 0 auto;
+  height: 100%;
+  pointer-events: none;
+}
+
+
+#option-panel{
+  height:100%;
+  width:100%;
+  overflow-y: auto;
+
+}
+
+.side-button{
+  float: left;
+}
+
+.sliceLabel{
+  color:black;
+}
+
+
+
+
+.splitpanes__pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 5em;
+}
+
+.table-container{
+  position: relative;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+  display: inline-block;
+  overflow: auto;
+}
+
+/* .cs-table{
+  position:absolute;
+  top:0px;
+  left:0px;
+  height:100%;
+  width:100%;
+} */
+
+.text-small{
+  font-size: 0.01em;
+}
